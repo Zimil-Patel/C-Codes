@@ -29,7 +29,7 @@ int main(){
 	
 	//languageSkilled
 	printf("Enter language you have skilled :");
-	scanf("%c",&languageSkilled);
+	scanf(" %c",&languageSkilled);
 	
 
 	
