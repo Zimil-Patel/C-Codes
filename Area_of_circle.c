@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-//Find Area of Circle
 int main(){
     
     float radius;
