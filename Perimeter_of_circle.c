@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-//Find perimeter of Circle
 int main(){
 
     float radius;
