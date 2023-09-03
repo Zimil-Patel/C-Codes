@@ -7,19 +7,19 @@ int main(){
 	unsigned int pinCode;
 	float percentage;
 	
-	// //Name
+	//Name
 	// printf("Enter your name :");
 	// scanf("%c",&name);
 	
-	// //Age
+	//Age
 	printf("Enter your age :");
 	scanf("%hu",&age);
 	
-	// //10th mark
+	//10th mark
 	printf("Enter marks obtained in 10th :");
 	scanf("%hu",&markOfSSC);
 
-	// //10th percentage
+	//10th percentage
 	printf("Enter percentage of 10th :");
 	scanf("%f",&percentage);
 	
@@ -28,7 +28,7 @@ int main(){
 	scanf("%u",&pinCode);
 	
 	
-	// //languageSkilled
+	//languageSkilled
 	// printf("Enter language you have skilled :");
 	// scanf(" %c",&languageSkilled);
 	
@@ -41,10 +41,10 @@ int main(){
 	printf("\nDate of Birth : 10-01-2003");
 	printf("\nAge : %hu",age);
 	printf("\n10th Mark : %hu",markOfSSC);
-	printf("\n10th percentage : %f",percentage);
+	printf("\n10th percentage : %.2f",percentage);
 	printf("\nExams cleared : 10th, 12th, BCA");
 	printf("\nArea pin code : %u",pinCode);
-	printf("\nSkilled languages : c, java);
+	printf("\nSkilled languages : c, java");
 	
 	return 0;
 	
