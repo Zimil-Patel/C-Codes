@@ -12,6 +12,6 @@ int main()
     printf("Enter the value of z : ");
     scanf("%d",&z);
     
-    printf("\n\n(x - y - z)^3 = %d",(x * x * x) - (y * y * y) - (z * z * z) + 3 * ((x - y)*(-y-z)*(x-z)));
+    printf("\n\n(x - y - z)^3 = %d",(x * x * x) - (y * y * y) - (z * z * z) + 3 * ((x - y) * ( -y - z) * (x - z)));
     return 0;
 }
