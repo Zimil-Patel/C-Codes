@@ -12,6 +12,6 @@ int main()
     printf("Enter the value of z : ");
     scanf("%d",&z);
     
-    printf("\n\n(x + y + z)^2 = %d",(x*x)+(y*y)+(z*z)+2*((x*y)+(y*z)+(z*x)));
+    printf("\n\n(x + y + z)^2 = %d",(x * x) + (y * y) + (z * z) + 2 * ((x * y) + (y * z) + (z * x)));
     return 0;
 }
