@@ -1,17 +1,17 @@
 #include<stdio.h>
 void main(){
 
-	int N, x = 1;
+	int N;
 	
 	printf("Enter value of N : ");
 	scanf("%d",&N);
 	
-	while(x <= N){
+	while(N > 0){
 	
-		if(x % 2 == 0)
-			printf("%d ",x);
+		if(N % 2 == 0)
+			printf("%d ",N);
 			
-		x++;
+		N--;
 		
 	}
 
