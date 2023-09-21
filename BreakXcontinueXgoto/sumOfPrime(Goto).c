@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//WAP to sum the prime numbers between 1 to N
 void main(){
 
 	int x = 2, n, divisor;
