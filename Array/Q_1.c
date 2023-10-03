@@ -9,7 +9,7 @@ void main(){
 	
 	short a[n];
 	
-	printf("Enter array elements:\n");
+	printf("\n\nEnter array elements:\n");
 	
 	for (short i = 0; i < n; i++){
 	
