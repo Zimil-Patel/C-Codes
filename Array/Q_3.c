@@ -3,7 +3,6 @@
 void main(){
 
 	short n;
-	float average = 0;
 	
 	printf("Enter size of array : ");
 	scanf("%hi", &n);
