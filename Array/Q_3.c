@@ -20,7 +20,7 @@ void main(){
 	}
 	
 	//Element of b
-	printf("\n\nEnter array elements of a :\n");
+	printf("\n\nEnter array elements of b :\n");
 	
 	for (short i = 0; i < n; i++){
 	
