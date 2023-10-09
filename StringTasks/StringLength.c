@@ -3,7 +3,8 @@
 #include<stdio.h>
 void main(){
 
-	char a[20], count = 0;
+	char a[20];
+	short count = 0;
 	
 	printf("Enter the String : ");
 	scanf("%s", &a);
