@@ -20,6 +20,6 @@ void main(){
 	
 	}
 	
-	printf("\n\nConverted String : %s", a);
+	printf("\n\nConverted(LowerCase) String : %s", a);
 
 }
