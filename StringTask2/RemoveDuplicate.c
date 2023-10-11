@@ -3,29 +3,24 @@
 #include<string.h>
 void main()
 {
-    char str[20];
-
-    puts("Enter the string : ");
-    gets(str);
-    
-    short freq = 1;
-    
-    for (short i = 0; str[i] != '\0'; i++){
-        
-        freq =1;
-        for (short j = 0; str[j] != '\0'; j++){
-            
-            if (i == j)
-                continue;
-            else if (str[i] == str[j]){
-                
-                
-                freq++;
-                if ( freq > 1)
-                    str[j] = ' ';
-            }    
-        }         
-    }
-    puts("\n\nString after removing Duplicate character : ");
-    puts(str);   
+	char a[20];
+	
+	printf("Enter the String : ");
+	gets(a);
+	
+	short len = strlen(a);
+	for(short i = 0; i < len; i++)
+	{
+		for(short j = i+1; j < len; j++)
+		{
+			if(a[i] == a[j])
+				a[j] = '\0';
+				
+		}
+		
+		if(a[i] != '\0')
+		{
+			printf("%c",a[i]);
+		}
+	}	
 }
