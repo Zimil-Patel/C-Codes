@@ -1,4 +1,4 @@
-//write c program to remove spaces and blanks from string
+//write c program to remove duplicates
 #include<stdio.h>
 #include<string.h>
 void main()
