@@ -1,24 +1,30 @@
 //6.WAP to convert given string in Title Case.
 
 #include<stdio.h>
+#include<string.h>
 void main(){
 
-	char a[20];
+	char str[20];
 	
 	printf("Enter the String : ");
-	scanf("%s", &a);
+	gets(str);
 	
-	printf("\n\nGiven String is : %s", a);
+	short len = strlen(str);
 	
-	for (short i = 0; a[i] != '\0'; i++){
+	printf("\n\nGiven String is : %s", str);
 	
-		if (i == 0 && (a[i] >= 'a' && a[i] <= 'z'))
-			a[i] -= 32;
-		else if(i != 0 && (a[i] >= 'A' && a[i] <= 'Z'))
-			a[i] += 32;
+	if(str[0] >= 'a' && str[0] <= 'z')
+		str[0] -= 32;
 	
-	}
+	for (short i = 0; i < len; i++){
 	
-	printf("\n\nConverted(Title) String : %s", a);
+		if (str[i] == ' ')			
+			if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+				str[i + 1] -= 32;
 
+	}
+  
+	
+	printf("\n\nConverted(Title) String : %s", str);
+	
 }
