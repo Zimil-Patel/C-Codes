@@ -42,10 +42,10 @@ float getValues(char varName){
 
 char runCalculator(float a, float b){
 
-	char operation, repeat;
+	char operation = '\0', repeat = '\0';
 	
 	printf("\nEnter '+' for addition\nEnter '-' for subtraction\nEnter '*' for multiplication\nEnter '/' for Divison\nEnter '%%' for modulo\nEnter Operator : ");
-	scanf("%c", &operation);
+	scanf(" %c", &operation);
 	
 	switch(operation){
 	
@@ -73,8 +73,9 @@ char runCalculator(float a, float b){
 			runCalculator(a, b);
 	}
 	
-	printf("\ndo you want to perform again ? (y / n) : ");
-	scanf("%c", &repeat);
+	printf("\n\ndo you want to perform again ? (y / n) : ");
+	scanf(" %c", &repeat);
+	printf("\n");
 
 	return repeat;
 }
