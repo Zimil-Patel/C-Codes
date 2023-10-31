@@ -5,7 +5,7 @@ int nToOneSum(int n){
 	if(n == 1)
 		return 1;
 	
-	return n + nToOneSum(n);
+	return n + nToOneSum(n - 1);
 
 }
 
