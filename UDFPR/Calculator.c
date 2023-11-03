@@ -36,7 +36,7 @@ char getChoice(){
 	char choice;
 	pf("Press 1 for +\nPress 2 for -\nPress 3 for *\nPress 4 for /\nPress 5 for %%\nPress 0 for exit");
 		
-	pf("\n\nEnter your choice : ");
+	pf("\n\nEnter your choice :");
 	sf(" %c", &choice);
 	
 	pf("\n");
