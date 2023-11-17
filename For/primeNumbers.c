@@ -37,7 +37,7 @@ void main(){
 		}
 		
 		if(flag == 'y')
-			printf("%d\n",x);
+			printf("%d  ",x);
 	
 	}
 
