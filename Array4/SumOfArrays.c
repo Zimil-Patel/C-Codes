@@ -36,7 +36,7 @@ void main(){
 			printf("%hi", c[i] = a[i] + b[i]);
 			
 			if (i < n-1)
-				printf(", ");
+				printf(",");
 		
 	}
 	
