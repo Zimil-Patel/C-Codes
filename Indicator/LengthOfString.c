@@ -6,6 +6,7 @@ Enter any string: hello world
 
 Output:
 The length of a string is: 11
+
 */
 
 #include<stdio.h>
