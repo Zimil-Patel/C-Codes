@@ -35,7 +35,7 @@ void main()
     }
     
     if (palindrome)
-        printf("\nGiven string is palindrome");
+        printf("\nGiven string is palindrome.");
     else
-        printf("\nGiven string is not palindrome");
+        printf("\nGiven string is not palindrome.");
 }
