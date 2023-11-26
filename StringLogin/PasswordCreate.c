@@ -1,4 +1,4 @@
-//WAP to create a password A,a,1,@,8Length
+//WAP to create a password A,a,1,@,8Length!
 
 #include<stdio.h>
 #include<string.h>
