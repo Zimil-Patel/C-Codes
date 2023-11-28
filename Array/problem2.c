@@ -1,4 +1,4 @@
-//2. WAP to find the sum of a 1D array.
+//2. WAP to find the sum of a 1D array!
 
 
 #include<stdio.h>
