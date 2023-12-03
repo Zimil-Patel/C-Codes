@@ -1,4 +1,4 @@
-//5.WAP to perform row-wise sum of 2D array.
+//5.WAP to perform row-wise sum of 2D array!
 
 #include<stdio.h>
 
