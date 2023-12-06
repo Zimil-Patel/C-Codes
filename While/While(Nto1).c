@@ -1,14 +1,14 @@
 #include<stdio.h>
 void main(){
 
-	int N;
+	int n;
 	
 	printf("Enter value of N : ");
-	scanf("%d",&N);
+	scanf("%d",&n);
 	
-	while(N >= 1){
+	while(n >= 1){
 	
-		printf("%d ",N--);
+		printf("%d ",n--);
 	}
 
 }
