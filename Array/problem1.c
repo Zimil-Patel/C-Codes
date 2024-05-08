@@ -1,6 +1,4 @@
 //1.WAP to get & print 1D array of N elements.
-
-
 #include<stdio.h>
 void main(){
 
