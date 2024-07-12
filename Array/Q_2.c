@@ -18,5 +18,4 @@ void main(){
 	}
 	
 	printf("\n\nAverage of an array : %.1f", average / n);
-
 }
