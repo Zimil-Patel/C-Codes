@@ -1,5 +1,4 @@
 // WAP check string is numeric or  not
-
 #include<stdio.h>
 #include<string.h>
 void main(){
