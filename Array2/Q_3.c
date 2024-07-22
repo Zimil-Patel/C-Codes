@@ -2,7 +2,6 @@
 
 #include<stdio.h>
 void main(){
-
 	short x;
 	
 	
