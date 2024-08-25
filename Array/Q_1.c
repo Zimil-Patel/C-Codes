@@ -2,6 +2,7 @@
 #include<stdio.h>
 void main(){
 
+	
 	short n;
 	
 	printf("Enter size of array : ");
