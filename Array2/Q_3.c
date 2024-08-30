@@ -2,8 +2,6 @@
 #include<stdio.h>
 void main(){
 	short x;
-
-	
 	//Array A
 	printf("Enter size of an array A : ");
 	scanf("%hi",&x);
